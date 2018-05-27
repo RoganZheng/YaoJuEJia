@@ -1,0 +1,37 @@
+//
+//  PrefixHeader.pch
+//  YaoJuEJia
+//
+//  Created by drogan Zheng on 2018/5/8.
+//  Copyright © 2018年 ChuangZe. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#import "URLHeader.h"
+#import "CommonHeader.h"
+#import "UICommonDefine.h"
+#import <AFNetworking.h>
+//define this constant if you want to use Masonry without the 'mas_' prefix
+#define MAS_SHORTHAND
+//define this constant if you want to enable auto-boxing for default syntax
+#define MAS_SHORTHAND_GLOBALS
+
+#import <Masonry.h>
+#import <SDWebImage/UIImageView+WebCache.h>
+#import <MJRefresh.h>
+#import "CategoryHeader.h"
+#import "UIViewCollectEventsDelegate.h"
+#import "YYModel.h"
+#import "MHCommonTool.h"
+#import "MBProgressHUD+Add.h"
+#import "SqliteDataTool.h"
+#import "UIImage+Rotate.h"
+#import "YJEJ_BaseLable.h"
+#import <XMLReader.h>
+#import "HttpNetworkManager.h"
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* PrefixHeader_pch */

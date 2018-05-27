@@ -1,0 +1,6 @@
+module Pods_YaoJuEJia [system] {
+  umbrella header "Pods-YaoJuEJia-umbrella.h"
+
+  export *
+  module * { export * }
+}
